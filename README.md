@@ -8,3 +8,15 @@ Caffe2 is an open-source deep learning framework. It's focus is on efficiency an
 4. Classification using Caffe2
 5. Image pre-processing pipeline
 6. Prediction using pretrained models
+
+
+# Prerequisites
+
+Install Caffe2 with Python bindings.
+
+
+# Download
+
+To download a model locally, run
+
+`python -m caffe2.python.models.download squeezenet`
