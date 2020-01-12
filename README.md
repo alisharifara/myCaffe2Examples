@@ -9,4 +9,4 @@ Other Deep learning frameworks: TensorFlow, Apache MXNet and PyTorch
 3. Simple Linear Regression (on one feature of Boston Dataset)
 4. Classification using Caffe2
 5. Image pre-processing pipeline
- 
+6. Prediction using pretrained models
