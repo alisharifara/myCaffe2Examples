@@ -20,3 +20,19 @@ Install Caffe2 with Python bindings.
 To download a model locally, run
 
 `python -m caffe2.python.models.download squeezenet`
+
+which will create a folder squeezenet/ containing both an init_net.pb and predict_net.pb.
+
+# Install
+
+To install a model, run
+
+`python -m caffe2.python.models.download -i squeezenet`
+
+which will allow later imports of the model directly in Python:
+
+`from caffe2.python.models import squeezenet
+ print(squeezenet.init_net.name)
+ print(squeezenet.predict_net.name)
+`
+
